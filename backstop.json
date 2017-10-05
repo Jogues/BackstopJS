@@ -1,0 +1,686 @@
+{
+  "id": "theory_page",
+  "viewports": [
+    {
+      "label": "windows",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "onBeforeScript": "chromy/onBefore.js",
+  "onReadyScript": "chromy/onReady.js",
+  "scenarios": [
+    {
+      "label": "Theory Page Homepage",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": "",
+      "selectors": [],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Lab Safety",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_lab_safety/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Evolution",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/evolution-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Eutrophication",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/eutrophication-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Marine Biology",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/marine-biology-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Bacterial Isolation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_bis/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Biosafety",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_to_biosafety_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Pasteurization and Sterilization",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_pas/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Antibodies",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/antibodies/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Carbohydrates",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-blood-sugar-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Cellular Respiration",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/cellular-respiration-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Enzyme Kinetics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/LabsterX.ENK.2014/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Fermentation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-fermentation-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Homogenization",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_hom/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Introduction to Food Macromolecules",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_to_introduction_to_food_macromolecules/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Introductory Lab",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/Intro_Lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Mass Spectrometry",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_ms1/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Photosynthesis",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-photosynthesis/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Plant Transcriptomics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/plant-transcriptomic-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Protein Denaturation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_prd/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Protein Synthesis",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/protein-synthesis/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Animal Genetics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/AnimalGenetics/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Cytogenetics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/Cytogenetics/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Invertebrate Model System",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_ims/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Medical Genetics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-medical-genetics/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Mendelian Inheritance",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-mendelian-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Monogenic Disorders",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-monogenic-disorders-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Cell Culture Basics",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_cell_culture_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Cell Culture Basics-Transfection",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-transfection/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Confocal Microscopy",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_com/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Crime Scene Investigation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/CSI_case/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Embryology",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_embryology/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Flourescence-automated Cell Sorting (FACS)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_to_facs/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Gene Expression",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/LabsterX.GeneExpressionIBL.2014/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Gene Regulation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-gene-regulation-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Mammalian Transient Protein Expression",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_protein_expression_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Meiosis",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_meiosis-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Microscopy",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-microscopy-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Mitosis",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-mitosis-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Pluripotent Stem Cells",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_stem_cell_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Signal Transduction",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_signal_transduction_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Viral Gene Therapy",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_gene_therapy_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Biological Circuits",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/BiologicalCircuit/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Molecular Cloning",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/molecular-cloning-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Multiplex Automated Genome Engineering (MAGE)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_to_mage_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Next Generation Sequencing",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/NGS_Case/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Synthetic Biology",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/synthetic-biology-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Tissue Engineering",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-tissue-engineering-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Uracil-Excision based cloning (USER)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_use/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Nuclear Magnetic Resonance (NMR)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_nmr/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Diabetes",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/diabetes-simulation/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Hematology",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_hematology_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Regeneration Biology",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_rbl/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Smooth Muscle",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_sml/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Acid and Bases",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_acb/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Advanced Acids and Bases",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_aab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Chemistry Safety",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_chemistry_safety/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Equilibrium",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_equilibrium/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Ionic and Covalent Bonds",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_icb_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Flow Injection Analysis (FIA)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-fia-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "High Performance Liquid Chromatography (HPLC)",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome-hplc-lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Tritation",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_titration_lab/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Wastewater Treatment",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_wwt/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Light and Polarization",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/welcome_lgh/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "References",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://theory.labster.com/references/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [],
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "chrome",
+  "engineFlags": [],
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
